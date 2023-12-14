@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class RoughCodes{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int implementCount = 0;
+
+        int n = sc.nextInt();
+
+
+        for (int i = 1; i <= n; i++) {
+
+            int petya = sc.nextInt(), vasya = sc.nextInt(),tonya = sc.nextInt();
+
+
+
+
+            int sureCount = petya + vasya + tonya;
+
+
+            if (sureCount >= 2) {
+                implementCount++;
+            }
+        }
+
+
+        System.out.println(implementCount);
+
+
+        sc.close();
+    }
+}
+
+
+
+
+
+
+
+
+
+
