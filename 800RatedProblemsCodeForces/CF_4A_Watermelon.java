@@ -10,7 +10,7 @@ public class CF_4A_Watermelon {
         }
 
         // Alternate method :-
-        System.out.println((w%2==0 && w!=2)? "YES" : "NO");  // w>2 also can be used  
+        System.out.println((w%2==0 && w>2)? "YES" : "NO");  
         sc.close();
     }
 }
